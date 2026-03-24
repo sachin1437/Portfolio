@@ -13,7 +13,7 @@
 - HTML5, CSS3, JavaScript
 - Formspree for contact form
 - AOS animations
-- Vercel deployment
+- Netlify deployment
 
 ## Live Demo
 [View Live Portfolio](https://sachingupta07.netlify.app/)
