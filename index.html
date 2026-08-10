@@ -7,6 +7,8 @@
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -123,27 +125,29 @@
             <div class="about-content" data-aos="fade-up">
                 <div class="about-text">
                     <h2>About Me</h2>
-                    <p>I'm a passionate Python Developer and AI enthusiast currently pursuing my Master's in Computer Applications. I specialize in building intelligent systems and scalable applications that solve real-world problems.</p>
-                    
+                    <p>I'm an AI/ML engineer and final-year MCA student at Lovely Professional University. I build intelligent systems end to end, from training and evaluating models to shipping them as real products people can actually use.</p>
+                    <p>My work spans computer vision, deep learning and full-stack AI. Lately that's meant a privacy-first wellness companion with end-to-end encryption, a real-time threat-detection system running on GPU, and a sign-language recognition model. I care about AI that is practical, private and genuinely useful, not just a demo.</p>
+
                     <div class="about-details">
                         <div class="detail-item">
                             <h3>Education</h3>
                             <p><strong>Master of Computer Applications (MCA)</strong><br>
                             Lovely Professional University<br>
                             2025 - Present</p>
-                            <p><strong>Bachelors of Science (Hons.)-Information Technology (BSC-IT)</strong><br>
+                            <p><strong>B.Sc. (Hons.) Information Technology</strong><br>
                             Noida International University<br>
                             2022 - 2025</p>
                         </div>
-                        
+
                         <div class="detail-item">
                             <h3>Focus Areas</h3>
                             <div class="focus-tags">
-                                <span class="focus-tag">Machine Learning</span>
+                                <span class="focus-tag">Computer Vision</span>
                                 <span class="focus-tag">Deep Learning</span>
-                                <span class="focus-tag">Backend Development</span>
-                                <span class="focus-tag">AI Applications</span>
-                                <span class="focus-tag">Data Analysis</span>
+                                <span class="focus-tag">Full-Stack AI</span>
+                                <span class="focus-tag">LLMs &amp; RAG</span>
+                                <span class="focus-tag">Backend APIs</span>
+                                <span class="focus-tag">Model Deployment</span>
                             </div>
                         </div>
                     </div>
@@ -151,15 +155,19 @@
                 <div class="about-stats" data-aos="fade-left">
                     <div class="stat-card">
                         <div class="stat-number">10+</div>
-                        <div class="stat-label">Projects Completed</div>
+                        <div class="stat-label">Projects Built</div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-number">700+</div>
-                        <div class="stat-label">Hours Coding</div>
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Flagship AI Systems</div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-number">10+</div>
+                        <div class="stat-number">15+</div>
                         <div class="stat-label">Technologies</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Oracle Certifications</div>
                     </div>
                 </div>
             </div>
@@ -170,78 +178,53 @@
     <section id="skills" class="skills-section">
         <div class="container">
             <h2 data-aos="fade-up">Technical Skills</h2>
+            <p class="skills-sub" data-aos="fade-up">The tools I reach for when turning ideas into working systems.</p>
             <div class="skills-grid">
+
                 <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
-                    <h3>Programming Languages</h3>
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <span class="skill-name">Python</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-level="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">C++</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-level="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Java</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-level="80"></div>
-                            </div>
-                        </div>
+                    <h3><span class="skill-cat-icon">&lt;/&gt;</span> Languages</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill"><i class="devicon-python-plain colored"></i>Python</span>
+                        <span class="skill-pill"><i class="devicon-cplusplus-plain colored"></i>C++</span>
+                        <span class="skill-pill"><i class="devicon-java-plain colored"></i>Java</span>
+                        <span class="skill-pill"><i class="devicon-mysql-original colored"></i>SQL</span>
                     </div>
                 </div>
 
                 <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
-                    <h3>AI & Machine Learning</h3>
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <span class="skill-name">TensorFlow</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-level="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Scikit-Learn</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-level="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">YOLO</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-level="80"></div>
-                            </div>
-                        </div>
+                    <h3><span class="skill-cat-icon">&#129504;</span> AI / ML / Vision</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill"><i class="devicon-pytorch-original colored"></i>PyTorch</span>
+                        <span class="skill-pill"><i class="devicon-tensorflow-original colored"></i>TensorFlow</span>
+                        <span class="skill-pill"><span class="skill-mono">Sk</span>Scikit-Learn</span>
+                        <span class="skill-pill"><span class="skill-mono">Y</span>YOLOv8</span>
+                        <span class="skill-pill"><i class="devicon-opencv-plain colored"></i>OpenCV</span>
+                        <span class="skill-pill"><span class="skill-mono">Mp</span>MediaPipe</span>
                     </div>
                 </div>
 
                 <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
-                    <h3>Backend & Databases</h3>
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <span class="skill-name">Django</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-level="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">FastAPI</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-level="88"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">MySQL</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-level="82"></div>
-                            </div>
-                        </div>
+                    <h3><span class="skill-cat-icon">&#9881;</span> Backend / Data</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill"><i class="devicon-fastapi-plain colored"></i>FastAPI</span>
+                        <span class="skill-pill"><i class="devicon-django-plain colored"></i>Django</span>
+                        <span class="skill-pill"><i class="devicon-flask-original"></i>Flask</span>
+                        <span class="skill-pill"><i class="devicon-mysql-original colored"></i>MySQL</span>
+                        <span class="skill-pill"><i class="devicon-mongodb-plain colored"></i>MongoDB</span>
+                        <span class="skill-pill"><i class="devicon-firebase-plain colored"></i>Firebase</span>
                     </div>
                 </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3><span class="skill-cat-icon">&#128640;</span> Tools / Deploy</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill"><i class="devicon-docker-plain colored"></i>Docker</span>
+                        <span class="skill-pill"><i class="devicon-git-plain colored"></i>Git</span>
+                        <span class="skill-pill"><i class="devicon-linux-plain colored"></i>Linux</span>
+                        <span class="skill-pill"><i class="devicon-react-original colored"></i>React</span>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -251,69 +234,77 @@
         <div class="container">
             <h2 data-aos="fade-up">Featured Projects</h2>
             <div class="projects-grid">
+
+                <!-- Mitra -->
                 <div class="project-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="project-image">
-                        <div class="project-placeholder">🚀</div>
+                        <span class="project-badge">AI Product</span>
+                        <div class="project-placeholder">&#128737;&#65039;</div>
                     </div>
                     <div class="project-content">
-                        <h3>AI-Powered Chat Application</h3>
-                        <p>A real-time chat application with AI integration using Python, FastAPI, and WebSockets. Features intelligent response generation and user analytics.</p>
+                        <h3>Mitra &#183; AI Wellness Companion</h3>
+                        <p>A privacy-first AI wellness companion built for Indian college students. Conversations are protected with end-to-end AES-256 encryption, and a crisis-detection layer surfaces real help resources when it matters most. Full-stack build with a React frontend and FastAPI backend, deployed on a custom domain.</p>
                         <div class="project-tech">
-                            <span>Python</span>
+                            <span>React</span>
                             <span>FastAPI</span>
-                            <span>WebSockets</span>
-                            <span>MongoDB</span>
+                            <span>Python</span>
+                            <span>Firebase</span>
+                            <span>AES-256</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link">View Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
+                            <a href="https://mitra.cybernetic.co.in" class="project-link" target="_blank" rel="noopener">Live Demo &#8599;</a>
+                            <a href="https://github.com/sachin1437" class="project-link" target="_blank" rel="noopener">GitHub</a>
                         </div>
                     </div>
                 </div>
 
+                <!-- IERS -->
                 <div class="project-card" data-aos="fade-up" data-aos-delay="200">
                     <div class="project-image">
-                        <div class="project-placeholder">🤖</div>
+                        <span class="project-badge">Computer Vision</span>
+                        <div class="project-placeholder">&#128680;</div>
                     </div>
                     <div class="project-content">
-                        <h3>Emergency Response System</h3>
-                        <p>End-to-end ML pipeline for image classification with model training, evaluation, and deployment using Docker and cloud services.</p>
+                        <h3>IERS &#183; Emergency Recognition System</h3>
+                        <p>A real-time AI threat-detection platform for hotels, schools and institutions. A YOLOv8 vision backbone detects fire, smoke, weapons and people from a live video feed, with a multi-layer suppression engine to cut false alarms. Ships as a FastAPI service with a React dashboard and a packaged desktop app, running on GPU.</p>
                         <div class="project-tech">
                             <span>Python</span>
-                            <span>Pytorch</span>
-                            <span>Scikit-Learn</span>
-                            <span>Twilio</span>
+                            <span>YOLOv8</span>
                             <span>OpenCV</span>
-                            <span>SQLite</span>
+                            <span>FastAPI</span>
+                            <span>React</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link">View Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
+                            <a href="https://huggingface.co/spaces/sachingupta07/IERS" class="project-link" target="_blank" rel="noopener">Live Demo &#8599;</a>
+                            <a href="https://github.com/sachin1437" class="project-link" target="_blank" rel="noopener">GitHub</a>
                         </div>
                     </div>
                 </div>
 
+                <!-- SignBridge -->
                 <div class="project-card" data-aos="fade-up" data-aos-delay="300">
                     <div class="project-image">
-                        <div class="project-placeholder">📊</div>
+                        <span class="project-badge">Research</span>
+                        <div class="project-placeholder">&#129311;</div>
                     </div>
                     <div class="project-content">
-                        <h3>Sign Language Detection</h3>
-                        <p>A deep learning model that recognizes hand gestures and translates them into text or speech to help the speech-impaired.</p>
+                        <h3>SignBridge &#183; Sign Language Recognition</h3>
+                        <p>A deep-learning system that recognises Indian Sign Language gestures and converts them to text, for more accessible communication. It pairs MediaPipe hand and pose tracking with a BiLSTM sequence model across 19 gesture classes, and is written up as a research paper.</p>
                         <div class="project-tech">
                             <span>Python</span>
-                            <span>OpenCV</span>
-                            <span>Mediapipe</span>
+                            <span>MediaPipe</span>
                             <span>TensorFlow</span>
-                            <span>Flask</span>
-                            <span>SQLite</span>
+                            <span>BiLSTM</span>
+                            <span>OpenCV</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link">View Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
+                            <a href="https://github.com/sachin1437" class="project-link" target="_blank" rel="noopener">GitHub</a>
+                            <!-- Optional: add the paper link when public
+                            <a href="PAPER_URL" class="project-link" target="_blank" rel="noopener">Read Paper &#8599;</a> -->
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -414,7 +405,7 @@
                         <div class="download-icon">📥</div>
                         <h3>Download Resume</h3>
                         <p>PDF Format - Updated Regularly</p>
-                        <a href="assets/resume/Sachin-resume.pdf" download class="btn btn-primary">
+                        <a href="assets\resume\offcampuscv.pdf" download class="btn btn-primary">
                             Download PDF
                         </a>
                     </div>
@@ -517,5 +508,6 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/chatbot.js"></script>
 </body>
 </html>
